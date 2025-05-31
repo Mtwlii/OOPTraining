@@ -14,7 +14,7 @@ namespace Inheritance
             try
             {
                 employee.SetFullName("John", "Doe");
-                employee.SetDateOfBirth(new DateTime(1930, 1, 1));
+                employee.SetDateOfBirth(new DateTime(1960, 1, 1));
                 employee.SetSalary(50000m);
                 Console.WriteLine($"Employee: {employee.FirstName} {employee.LastName}, DOB: {employee.DateOfBirth.ToShortDateString()}, Salary: {employee.Salary:C}");
             }
